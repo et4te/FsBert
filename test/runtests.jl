@@ -2,7 +2,7 @@ fatal = length(ARGS) > 0 && ARGS[1] == "-f"
 quiet = length(ARGS) > 0 && ARGS[1] == "-q"
 any_errors = false
 
-push!(LOAD_PATH, "/home/edtate/paraphrase/FsBert/src/")
+push!(LOAD_PATH, "../src")
 
 using FsBert
 using Base.Test
